@@ -1,13 +1,13 @@
 import React from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
+import Sidebar from './components/Sidebar';
 import Main from './components/Main/Main';
 
 const App = () => {
   return (
-    <>
+    <div className="app-container">
       <Sidebar />
-      <Main /> {/* Ensure Main is imported or defined */}
-    </>
+      <Main />
+    </div>
   );
 };
 
